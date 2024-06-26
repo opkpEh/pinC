@@ -1,0 +1,32 @@
+<doctype html5>
+  <html>
+
+  <head>
+    <title>pinC</title>
+    <link rel="stylesheet" href="{{url_for('static', filename="styles.css")}}">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navBar" id="left">
+        <li><a href="index.html">home</a></li>
+        <li><a href="search.html">search</a></li>
+      </ul>
+
+      <ul class=navBar id="right">
+        <li><a href="account.html">account</a></li>
+        <li><a href="login.html">login</a></li>
+        <li><a href="signup.html">signup</a></li>
+    </nav>
+
+    <div class="pin-container">
+      <div class="pin">
+        <img src="{{url_for('static', filename='test.png')}}" alt="test image">
+      </div>
+      <div class="pin">
+        <img src="{{url_for('static', filename='test.png')}}" alt="test image">
+      </div>
+    </div>
+  </body>
+
+  </html>

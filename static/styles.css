@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: solid black 4px;
+}
+
+.navBar {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+
+  li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+}
+
+.pin{
+  margin: 5px;
+  border: dotted black 2px;
+  display: inline-flex;
+  padding: 10px;
+  img{
+  height: 200px;
+  width: auto;
+  }
+}
